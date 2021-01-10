@@ -1,0 +1,88 @@
+h1 {
+	text-align: center;
+	font-size: 28px;
+	margin: 30px; 
+	font-family: cursive;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.row{
+	width: 100%;
+	padding: 0.15px;
+}
+
+
+
+.boxs{
+	position: relative;
+	background-color: #999999;
+	padding: 35px 20px 20px 20px;
+	border: 1px solid black;
+	font-family: monospace; 
+	margin: 20px;
+	float: left;
+	font-size: 14px;
+
+ }
+
+.littleBox{
+		border: 1px solid black;
+	position: absolute;
+	background-color: #ECC11D;
+	color: #000000;
+	top: 0px;
+	right: 0px;
+	width: 80px;
+}
+
+#littleBox1 {
+	background-color: #ECC11D;
+	color: #000000;
+}
+
+#littleBox2 {
+	background-color: #ED3326;
+	color: #EEEDDB;
+}
+
+#littleBox3 {
+	background-color: #A12A22;
+	color: #E7C231;
+}
+
+.littleBoxText {
+	text-align: center;
+	padding: 5px;
+	font-weight: bold;
+	font-size: 15px;
+}
+
+
+@media (min-width: 992px) {
+    .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
+        float: left;
+    }
+    .col-lg-4 {
+        width: 33.33%;
+
+    }
+
+}
+
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
+        float: left;
+    }
+    .col-md-6 {
+        width: 50%;
+    }
+
+}
+
+
